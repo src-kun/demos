@@ -1,5 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*- 
+"""
+利用卡巴斯基检测木马
+"""
+
 import os
 
 os.system('cd C:\\Program Files (x86)\\Kaspersky Lab\\Kaspersky Total Security 18.0.0 && avp.com scan "C:\\Users\\max\\Desktop\\scan" > C:\\Users\\max\\Desktop\\scan\\1.txt')
